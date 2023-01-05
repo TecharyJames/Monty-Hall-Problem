@@ -36,7 +36,7 @@ while ($doorNumber -ne 3)
 
 do
     {
-
+        print-door
         [int32]$FirstChoiceDoor = read-host "Pick a door"
 
     }
